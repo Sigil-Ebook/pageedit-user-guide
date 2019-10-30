@@ -34,7 +34,7 @@ build_script:
 
 test_script:
 - cmd: |-
-    java -jar .\epubcheck-4.1.1\epubcheck.jar src/ -mode exp --failonwarnings
+    java -jar .\epubcheck-4.2.2\epubcheck.jar src/ -mode exp --failonwarnings
     .\FlightCrew\win32\flightcrew-plugin.exe src
  
 
