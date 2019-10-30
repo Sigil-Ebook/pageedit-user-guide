@@ -88,7 +88,7 @@ def main(argv=sys.argv):
     foldpath = os.path.join(os.path.dirname(__file__), "..", "src")
     
     # use folder name as name for epub
-    epubname = "Sigil_User_Guide_{}.epub".format(tagname)
+    epubname = "PageEdit_User_Guide_{}.epub".format(tagname)
                 
     rv = -1
     data = b''        
