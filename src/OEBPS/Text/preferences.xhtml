@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <title>Preferences</title>
+  <link href="../Styles/styles.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+  <h1 id="preferences">Preferences</h1>
+
+  <p class="h2subheading">&#x2014; Customize PageEdit &#x2014;</p>
+
+  <p>The Preferences dialog gives you control over many settings in PageEdit.</p>
+
+  <p>Select the menu item <span class="menuitem">File→Preferences</span> to open the Preferences dialog:</p>
+
+  <p>You can change the following settings (see below for details):</p>
+
+  <ul>
+    <li>Appearance</li>
+
+    <li>General Settings</li>
+  </ul>
+
+  <p>Once the Preferences window is open, you can choose the area you want to modify by clicking on the entry on the left. Selecting <span class="buttonbox">OK</span> or closing the window will save the current settings.</p>
+
+  <h3 id="preferences_appearance">Appearance</h3>
+
+  <div class="tip">
+    <p class="tiptext">Appearance settings do not affect how your HTML file is displayed to the user!</p>
+  </div>
+
+  <p>You can modify the fonts and colors that PageEdit uses to display your XHTML file while editing:</p>
+
+  <div class="image">
+    <img alt="a screenshot of the appearance dialog" src="../Images/preferences-appearance.PNG"/>
+  </div>
+
+  <p>The settings that can be changed include:</p>
+
+  <ul>
+    <li><span class="listheading">Preview:</span> You can independently set the font family/size for serif fonts and sans-serif fonts.</li>
+
+    <li><span class="listheading">Insert Special Characters:</span> You can set the font family/size of characters in the Special Characters dialog.</li>
+  </ul>
+
+  <div class="tip">
+    <p class="tiptext">The default fonts are Arial and Times New Roman. If these are not available on your system, the preferences will default to the first available font.</p>
+  </div>
+
+  <div class="image">
+    <img alt="a screenshot of the icon size slider" src="../Images/icon_size.PNG"/>
+  </div>
+
+  <ul>
+    <li><span class="listheading">Icon Size:</span> This slider changes the size of the icons in the main menu.</li>
+  </ul>
+
+  <h3 id="sigil_toc_id_4">General Settings</h3>
+
+  <div class="image">
+    <img alt="a screenshot of the general settings dialog" src="../Images/preferences-general-settings.PNG"/>
+  </div>
+
+  <p>The settings that can be changed include:</p>
+
+  <ul>
+    <li><span class="listheading">User Interface Language:</span> Select the PageEdit user interface language.</li>
+
+    <li><span class="listheading">Spellcheck Dictionary:</span> Select the default spellcheck dictionary.</li>
+
+    <li><span class="listheading">Control Access by HMTL files to non-multimedia remote resources:</span> Enable this option to allow XHTML files to access non-multimedia remote resources.</li>
+
+    <li><span class="listheading">Control use of JavaScript by HMTL files:</span> Enable this option to allow XHTML files to run JavaScript.</li>
+
+    <li><span class="listheading">Handle multiple whitespace layout using:</span> Select the desired whitespace handling option.</li>
+
+    <li><span class="listheading">Use prettify to reformat xhtml when saving:</span> Enable this option to reformat XHTML files when saving.</li>
+  </ul>
+
+  <div class="tip">
+    <p class="tiptext">If you change the user interface language, you must restart PageEdit in order for the new user interface language to take effect.</p>
+
+    <p class="tiptext">(If a translation is not available for specific words then they will be shown in English.)</p>
+  </div>
+
+  <h4 id="spellcheck_dictionary" class="sigil_not_in_toc"><span style="font-size: 1.2em;">Spellcheck Dictionary</span></h4>
+
+  <p>PageEdit includes several standard dictionaries: US English, British English, French, German and Spanish. You can select one using the Spellcheck Dictionary drop-down menu.</p>
+
+  <div class="image">
+    <img alt="a screenshot of the spellcheck dictionary drop-down box" src="../Images/preferences-spellcheck-standard-dictionary.png"/>
+  </div>
+
+  <div id="bdic_installation" class="tip">
+    <p class="tiptext">You can download additional <span class="menuitem">.bdic</span> dictionaries from the <a href="https://cs.chromium.org/chromium/src/third_party/hunspell_dictionaries/">Chromium Hunspell</a> website and install them by copying them to the <span class="menuitem">qtwebengine_dictionaries</span> folder.</p>
+
+    <p class="tiptext">For example, if you want to install an Italian dictionary, download <span class="example">it-IT-3-0.bdic</span> and copy it to the <span class="example">qtwebengine_dictionaries</span> folder.</p>
+
+    <p class="tiptext">Advanced users can also convert their Hunspell dictionaries with <span class="example">qwebengine_convert_dict</span>.</p>
+  </div>
+
+  <div>
+    <h4 class="sigil_not_in_toc">Open Preferences Location</h4>
+
+    <p>The <span class="buttonbox">Open Preferences Location</span> button on all the Preferences screens can be used to open the directory containing all of your preference files. You can copy the files for backup or for sharing with others.</p>
+
+    <p>The preferences location will likely be in the following locations:</p>
+
+    <p>Windows:</p>
+
+    <pre class="example">%USERPROFILE%\AppData\Local\sigil-ebook\pageedit</pre>
+
+    <p>MAC:</p>
+
+    <pre class="example">~/Library/Application\ Support/sigil-ebook/pageedit</pre>
+
+    <p>Linux:</p>
+
+    <pre class="example">$HOME/.local/share/sigil-ebook/pageedit</pre>
+
+    <p>And the files you are likely to see will include:</p>
+
+    <ul>
+      <li><span class="listheading">pageedit.ini:</span> General configuration information for Sigil.</li>
+    </ul>
+  </div>
+
+  <div id="pageedit.ini" class="tip">
+    <p class="tiptext">If you delete <span class="menuitem">pageedit.ini</span>, PageEdit will reset <b>all</b> preferences.</p>
+  </div>
+
+  <h4 class="sigil_not_in_toc">Change the Font Size Of GUI Controls</h4>
+
+  <p>Since PageEdit is a Qt app, you can customize the font size of some GUI controls with a <b>qt_styles.qss</b> style sheet file in the PageEdit preferences folder. (<b>qt_styles.qss</b> needs to contain valid <a href="http://doc.qt.io/qt-5/stylesheet-syntax.html">Qt style sheet</a> declarations.)</p>
+
+  <p>For example, the following styles will increase the font size of the fields in the Find toolbar:</p>
+
+  <pre class="example">QLabel { font-size: 16pt }
+QLineEdit { font-size: 16pt }
+QComboBox { font-size: 16pt }
+</pre>
+</body>
+</html>

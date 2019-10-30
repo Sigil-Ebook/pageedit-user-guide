@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="2.0" unique-identifier="BookId" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title>PageEdit User Guide</dc:title>
+    <dc:creator opf:role="aut" opf:file-as="Heiland, Dave">Dave Heiland</dc:creator>
+    <dc:language>en</dc:language>
+    <dc:identifier id="BookId">urn:uuid:375725e6-c7a1-4a16-ba35-208505f02c11</dc:identifier>
+    <dc:date>2013-04-14</dc:date>
+    <dc:date opf:event="modification">2019-10-15</dc:date>
+    <dc:subject>XHTML</dc:subject>
+    <dc:subject>editor</dc:subject>
+    <meta name="Sigil version" content="0.9.18" />
+    <meta name="cover" content="cover.png" />
+  </metadata>
+  <manifest>
+    <item id="Fontin-SmallCaps.otf" href="Fonts/Fontin-SmallCaps.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="TOC.xhtml" href="Text/TOC.xhtml" media-type="application/xhtml+xml"/>
+    <item id="about_pageedit.xhtml" href="Text/about_pageedit.xhtml" media-type="application/xhtml+xml"/>
+    <item id="after_split.PNG" href="Images/after_split.PNG" media-type="image/png"/>
+    <item id="before_split.PNG" href="Images/before_split.PNG" media-type="image/png"/>
+    <item id="contributing_to_pageedit.xhtml" href="Text/contributing_to_pageedit.xhtml" media-type="application/xhtml+xml"/>
+    <item id="cover.xhtml" href="Text/cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="document-open_22px.png" href="Images/document-open_22px.png" media-type="image/png"/>
+    <item id="document-save_22px.png" href="Images/document-save_22px.png" media-type="image/png"/>
+    <item id="external_editor.png" href="Images/external_editor.png" media-type="image/png"/>
+    <item id="find.png" href="Images/find.png" media-type="image/png"/>
+    <item id="find.xhtml" href="Text/find.xhtml" media-type="application/xhtml+xml"/>
+    <item id="heading.PNG" href="Images/heading.PNG" media-type="image/png"/>
+    <item id="icon_size.PNG" href="Images/icon_size.PNG" media-type="image/png"/>
+    <item id="insert-special-character.png" href="Images/insert-special-character.png" media-type="image/png"/>
+    <item id="insert-special-character_22px.png" href="Images/insert-special-character_22px.png" media-type="image/png"/>
+    <item id="inspector.png" href="Images/inspector.png" media-type="image/png"/>
+    <item id="installation.xhtml" href="Text/installation.xhtml" media-type="application/xhtml+xml"/>
+    <item id="introduction.xhtml" href="Text/introduction.xhtml" media-type="application/xhtml+xml"/>
+    <item id="main_toolbar.png" href="Images/main_toolbar.png" media-type="image/png"/>
+    <item id="mode.png" href="Images/mode.png" media-type="image/png"/>
+    <item id="navigation.png" href="Images/navigation.png" media-type="image/png"/>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="opening_and_saving_files.xhtml" href="Text/opening_and_saving_files.xhtml" media-type="application/xhtml+xml"/>
+    <item id="pe_button.png" href="Images/pe_button.png" media-type="image/png"/>
+    <item id="pe_main_window.PNG" href="Images/pe_main_window.PNG" media-type="image/png"/>
+    <item id="preferences-appearance.PNG" href="Images/preferences-appearance.PNG" media-type="image/png"/>
+    <item id="preferences-general-settings.PNG" href="Images/preferences-general-settings.PNG" media-type="image/png"/>
+    <item id="preferences-spellcheck-standard-dictionary.png" href="Images/preferences-spellcheck-standard-dictionary.png" media-type="image/png"/>
+    <item id="preferences.xhtml" href="Text/preferences.xhtml" media-type="application/xhtml+xml"/>
+    <item id="rights.xhtml" href="Text/rights.xhtml" media-type="application/xhtml+xml"/>
+    <item id="running_pageedit.xhtml" href="Text/running_pageedit.xhtml" media-type="application/xhtml+xml"/>
+    <item id="search_toolbar.PNG" href="Images/search_toolbar.PNG" media-type="image/png"/>
+    <item id="sgc-toc.css" href="Styles/sgc-toc.css" media-type="text/css"/>
+    <item id="special-character-tooltip.png" href="Images/special-character-tooltip.png" media-type="image/png"/>
+    <item id="special_characters.xhtml" href="Text/special_characters.xhtml" media-type="application/xhtml+xml"/>
+    <item id="spellcheck-context-suggestion.png.PNG" href="Images/spellcheck-context-suggestion.png.PNG" media-type="image/png"/>
+    <item id="spellcheck.xhtml" href="Text/spellcheck.xhtml" media-type="application/xhtml+xml"/>
+    <item id="spelling_dictionary.PNG" href="Images/spelling_dictionary.PNG" media-type="image/png"/>
+    <item id="split-section_22px.png" href="Images/split-section_22px.png" media-type="image/png"/>
+    <item id="split_markers.xhtml" href="Text/split_markers.xhtml" media-type="application/xhtml+xml"/>
+    <item id="status_bar.png" href="Images/status_bar.png" media-type="image/png"/>
+    <item id="styles.css" href="Styles/styles.css" media-type="text/css"/>
+    <item id="titlepage.xhtml" href="Text/titlepage.xhtml" media-type="application/xhtml+xml"/>
+    <item id="toolbar_file.png" href="Images/toolbar_file.png" media-type="image/png"/>
+    <item id="toolbar_format_align.png" href="Images/toolbar_format_align.png" media-type="image/png"/>
+    <item id="toolbar_format_bold.png" href="Images/toolbar_format_bold.png" media-type="image/png"/>
+    <item id="toolbar_format_indent.png" href="Images/toolbar_format_indent.png" media-type="image/png"/>
+    <item id="toolbar_main_undo.png" href="Images/toolbar_main_undo.png" media-type="image/png"/>
+    <item id="toolbar_split_insert.png" href="Images/toolbar_split_insert.png" media-type="image/png"/>
+    <item id="tooltip.png" href="Images/tooltip.png" media-type="image/png"/>
+    <item id="user-interface-main-menu.png" href="Images/user-interface-main-menu.png" media-type="image/png"/>
+    <item id="user_interface.xhtml" href="Text/user_interface.xhtml" media-type="application/xhtml+xml"/>
+    <item id="using_the_inspector.xhtml" href="Text/using_the_inspector.xhtml" media-type="application/xhtml+xml"/>
+    <item id="whats_new.xhtml" href="Text/whats_new.xhtml" media-type="application/xhtml+xml"/>
+    <item id="zoom.png" href="Images/zoom.png" media-type="image/png"/>
+    <item id="modes.xhtml" href="Text/modes.xhtml" media-type="application/xhtml+xml"/>
+    <item id="preview_mode.png" href="Images/preview_mode.png" media-type="image/png"/>
+    <item id="preview_button.png" href="Images/preview_button.png" media-type="image/png"/>
+    <item id="cover.png" href="Images/cover.png" media-type="image/png"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover.xhtml"/>
+    <itemref idref="titlepage.xhtml"/>
+    <itemref idref="rights.xhtml"/>
+    <itemref idref="TOC.xhtml"/>
+    <itemref idref="introduction.xhtml"/>
+    <itemref idref="whats_new.xhtml"/>
+    <itemref idref="about_pageedit.xhtml"/>
+    <itemref idref="installation.xhtml"/>
+    <itemref idref="running_pageedit.xhtml"/>
+    <itemref idref="user_interface.xhtml"/>
+    <itemref idref="preferences.xhtml"/>
+    <itemref idref="opening_and_saving_files.xhtml"/>
+    <itemref idref="spellcheck.xhtml"/>
+    <itemref idref="special_characters.xhtml"/>
+    <itemref idref="split_markers.xhtml"/>
+    <itemref idref="find.xhtml"/>
+    <itemref idref="modes.xhtml"/>
+    <itemref idref="using_the_inspector.xhtml"/>
+    <itemref idref="contributing_to_pageedit.xhtml"/>
+  </spine>
+  <guide>
+    <reference type="text" title="Text" href="Text/introduction.xhtml"/>
+    <reference type="cover" title="Cover" href="Text/cover.xhtml"/>
+    <reference type="toc" title="Table of Contents" href="Text/TOC.xhtml"/>
+  </guide>
+</package>
