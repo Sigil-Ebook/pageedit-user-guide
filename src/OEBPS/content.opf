@@ -2,14 +2,14 @@
 <package version="2.0" unique-identifier="BookId" xmlns="http://www.idpf.org/2007/opf">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
     <dc:title>PageEdit User Guide</dc:title>
-    <dc:creator opf:role="aut" opf:file-as="Heiland, Dave">Dave Heiland</dc:creator>
+    <dc:creator opf:file-as="Source, Crowd" opf:role="aut">Crowd Source</dc:creator>
     <dc:language>en</dc:language>
-    <dc:identifier id="BookId">urn:uuid:375725e6-c7a1-4a16-ba35-208505f02c11</dc:identifier>
     <dc:date>2013-04-14</dc:date>
-    <dc:date opf:event="modification">2019-10-15</dc:date>
+    <dc:date opf:event="modification">2019-10-31</dc:date>
     <dc:subject>XHTML</dc:subject>
     <dc:subject>editor</dc:subject>
     <meta name="Sigil version" content="0.9.18" />
+    <dc:identifier id="BookId">urn:uuid:375725e6-c7a1-4a16-ba35-208505f02c11</dc:identifier>
     <meta name="cover" content="cover.png" />
   </metadata>
   <manifest>
