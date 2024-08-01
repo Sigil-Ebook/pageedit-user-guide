@@ -2,6 +2,8 @@
 
 <br/>
 
+[View this user guide online](https://sigil-ebook.com/pageedit-user-guide)
+
 ## <center>Guidelines for contributing</center>
 
 <br/>
